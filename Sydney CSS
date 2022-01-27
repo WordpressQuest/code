@@ -1,0 +1,84 @@
+/*ロゴの設定（画像の場合）*/
+
+/*PC*/
+@media screen and (min-width:1024px){
+.site-logo {
+max-height:90px;
+}}
+
+/*タブレット*/
+@media screen and (max-width:768px) {
+.site-logo {
+max-height:70px;
+}}
+
+/*スマホ*/
+@media screen and (max-width:480px) {
+.site-logo {
+max-height:50px !important;
+}}
+
+/*グローバルナビゲーションの設定*/
+#mainnav ul li a {
+font-size: 1.2rem; /*文字サイズ*/
+	font-weight: bold; /*文字のウェイト*/
+}
+
+/*グローバルナビゲーションのサブリスト設定*/
+#mainnav .sub-menu li a {
+font-size: 1.1rem;
+font-weight: bold;
+}
+
+/*グローバルナビゲーションのタブレット＆スマホ*/
+.mainnav.toggled ul li, #mainnav-mobi ul li {
+font-size: 1.2rem; /*文字サイズ*/
+text-align: left;/*文字配置*/
+background-color:#e71f2c;/*背景色*/
+border-top: 1px solid #fff;/*区切り線の色*/
+}
+
+/*グローバルナビゲーションのタブレット＆スマホ ホバー時（マウスオン）*/
+.mainnav.toggled ul li, #mainnav-mobi ul li :hover{
+background-color:#ff2533;/*背景色*/
+}
+
+/*本文の設定*/
+body {
+text-rendering: optimizeLegibility;
+text-align: justify;/*両揃え*/
+color: #333333;/*文字の色*/
+font-size: 1.2em !important; /*文字サイズ*/
+letter-spacing: 0.2em !important; /*字間*/
+line-height: 2em !important; /*行間*/
+font-family: “Noto Sans JP”, “游ゴシック Medium”, “游ゴシック体”, “Yu Gothic Medium”, YuGothic, “ヒラギノ角ゴ ProN”, “Hiragino Kaku Gothic ProN”, “メイリオ”, Meiryo, “ＭＳ Ｐゴシック”, “MS PGothic”;
+font-feature-settings: "palt";
+-webkit-font-feature-settings: "palt";
+-moz-font-feature-settings: "palt";
+-webkit-font-smoothing: antialiased;
+}
+
+/*Body全体の幅（elementerで調整しない場合）*/
+/*PC*/
+@media screen and (min-width:1024px){
+.content-wrapper {
+width: 100%;/*サイト幅*/
+padding-right: 50px;/*右サイドの余白*/
+padding-left: 50px; /*左サイドの余白*/
+}}
+
+/*タブレット*/
+@media screen and (max-width:768px) {
+.content-wrapper {
+width: 100%;/*サイト幅*/
+padding-right: 50px;/*右サイドの余白*/
+padding-left: 50px; /*左サイドの余白*/
+}}
+
+
+/*フッターの設定*/
+.site-footer {
+text-align: center;
+font-size: 0.8em;
+line-height: 2.1 
+}
